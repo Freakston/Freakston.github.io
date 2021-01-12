@@ -5,7 +5,7 @@ title = "Freakston"
 theme = "hugo-ink"
 paginate = 5
 
-copyright = "©Freakston Copyright notice"
+copyright = "©Freakston"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
