@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ReactOS on Freakston</title>
-    <link>freakston.github.io/tags/reactos/</link>
+    <link>/tags/reactos/</link>
     <description>Recent content in ReactOS on Freakston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©Freakston Copyright notice</copyright>
     <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="freakston.github.io/tags/reactos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/reactos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setup Kernel Debugging of ReactOS using PUTTY/ROSDBG</title>
-      <link>freakston.github.io/posts/kd_react/kd_react/</link>
+      <link>/posts/kd_react/kd_react/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>freakston.github.io/posts/kd_react/kd_react/</guid>
+      <guid>/posts/kd_react/kd_react/</guid>
       <description>Setup Kernel Debugging for ReactOS - In this post I will be guiding you guys on how to set up a kernel debugger for ReactOS. ReactOS can be built using the MSVC or GCC. In this post we will be using a ReactOS built using MSVC.
 For official reference you can refer the ReactOS wiki.
 Tools needed  com0com Putty Virtual Box  Steps  Install com0com with the following components selected.</description>
