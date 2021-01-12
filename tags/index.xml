@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Freakston</title><link>http://example.org/tags/</link><description>Recent content in Tags on Freakston</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©Freakston Copyright notice</copyright><lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>DOS</title><link>http://example.org/tags/dos/</link><pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate><guid>http://example.org/tags/dos/</guid><description/></item><item><title>Malware</title><link>http://example.org/tags/malware/</link><pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate><guid>http://example.org/tags/malware/</guid><description/></item><item><title>Development</title><link>http://example.org/tags/development/</link><pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate><guid>http://example.org/tags/development/</guid><description/></item><item><title>ReactOS</title><link>http://example.org/tags/reactos/</link><pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate><guid>http://example.org/tags/reactos/</guid><description/></item><item><title>Windows</title><link>http://example.org/tags/windows/</link><pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate><guid>http://example.org/tags/windows/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Freakston</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on Freakston</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©Freakston Copyright notice</copyright>
+    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DOS</title>
+      <link>http://example.org/tags/dos/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/dos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Malware</title>
+      <link>http://example.org/tags/malware/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/malware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://example.org/tags/development/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReactOS</title>
+      <link>http://example.org/tags/reactos/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/reactos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>http://example.org/tags/windows/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
