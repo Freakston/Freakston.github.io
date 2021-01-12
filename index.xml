@@ -6,7 +6,7 @@
     <description>Recent content on Freakston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>©Freakston Copyright notice</copyright>
+    <copyright>©Freakston</copyright>
     <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -20,6 +20,17 @@
       <guid>/posts/dos_malware/dos_malware/</guid>
       <description>In this post we will be looking at how ABR-1171 works.
  Environment setup →  Grab the latest version of DOSBox and install it. Link Grab the version of Debug build of DOSBox and place it in the installation folder. Link  Upon opening the file in a disassembler we can see that the first instruction is a jump to the unpacking routine. The unpacking routine can be replicated fairly easily since it&amp;rsquo;s a simple XOR.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi, I am Suraj K Suresh a computer science under-grad at Amrita Vishwa Vidhyapeetham. I also play CTF&amp;rsquo;s as a part of teambi0s. My main interests include Reverse Engineering, Fuzzing and Malware. Rest of the time, I enjoy binge watching anime and playing games.
+You can contact me on twitter or drop a mail at kssuraj15@gmail.com.
+Thanks for dropping by :)</description>
     </item>
     
     <item>
@@ -40,15 +51,6 @@ Tools needed  com0com Putty Virtual Box  Steps  Install com0com with the followi
       
       <guid>/posts/windll/windll/</guid>
       <description>What is a DLL - A DLL stands for &amp;ldquo;Dynamic Link Library&amp;rdquo;.It acts as a shared library. The executables can use functions from the DLL libraries by importing/attaching the DLL. Dynamic Libraries are libraries that are loaded from another file (typically the DLL file). They are similar in structure to PE, the only difference they have is that they contain export tables. The list of functions that can be loaded is in the export table of the DLL.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This is some static page where you can write about yourself.</description>
     </item>
     
   </channel>
