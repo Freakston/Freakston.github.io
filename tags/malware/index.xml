@@ -18,8 +18,7 @@
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/posts/dos_malware/dos_malware/</guid>
-      <description>In this post we will be looking at how ABR-1171 works.
- Environment setup →  Grab the latest version of DOSBox and install it. Link Grab the version of Debug build of DOSBox and place it in the installation folder. Link  Upon opening the file in a disassembler we can see that the first instruction is a jump to the unpacking routine. The unpacking routine can be replicated fairly easily since it&amp;rsquo;s a simple XOR.</description>
+      <description>In this post we will be looking at ABR-1171, which is infected by PS-MPC.c virus. This is a file infector type malware and is also know as Abraxas. File infectors are malware that scan the disk for all files and then overwrite them making them unusable. This particular malware infects only the first file present in the directory. This encrypted malware was first seen around 1993 and is of Russian origin.</description>
     </item>
     
   </channel>
