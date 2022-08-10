@@ -37,6 +37,11 @@ name = "About"
 url = "/about"
 weight = 3
 
+[[menu.main]]
+name = "Resume"
+url = "Resume.pdf"
+weight = 4
+
 [[params.social]]
 name = "Github"
 icon = "github"
