@@ -4,42 +4,31 @@
     <title>Posts on Freakston</title>
     <link>/posts/</link>
     <description>Recent content in Posts on Freakston</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>©Freakston</copyright>
     <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A look at DOS Malware ABR-1171.COM</title>
       <link>/posts/dos_malware/dos_malware/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>/posts/dos_malware/dos_malware/</guid>
-      <description>In this post we will be looking at ABR-1171, which is infected by PS-MPC.c virus. This is a file infector type malware and is also know as Abraxas. File infectors are malware that scan the disk for all files and then overwrite them making them unusable. This particular malware infects only the first file present in the directory. This encrypted malware was first seen around 1993 and is of Russian origin.</description>
+      <description>&lt;p&gt;In this post we will be looking at ABR-1171, which is infected by &lt;strong&gt;PS-MPC.c&lt;/strong&gt; virus. This is a file infector type malware and is also know as Abraxas. File infectors are malware that scan the disk for all files and then overwrite them making them unusable. This particular malware infects only the first file present in the directory. This encrypted malware was first seen around 1993 and is of Russian origin. The group that wrote the malware is &lt;strong&gt;ARCV(Association of Really Cruel Viruses)&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Setup Kernel Debugging of ReactOS using PUTTY/ROSDBG</title>
       <link>/posts/kd_react/kd_react/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>/posts/kd_react/kd_react/</guid>
-      <description>Setup Kernel Debugging for ReactOS - In this post I will be guiding you guys on how to set up a kernel debugger for ReactOS. ReactOS can be built using the MSVC or GCC. In this post we will be using a ReactOS built using MSVC.
-For official reference you can refer the ReactOS wiki.
-Tools needed  com0com Putty Virtual Box  Steps  Install com0com with the following components selected.</description>
+      <description>&lt;h2 id=&#34;setup-kernel-debugging-for-reactos--&#34;&gt;Setup Kernel Debugging for ReactOS -&lt;/h2&gt;&#xA;&lt;p&gt;In this post I will be guiding you guys on how to set up a kernel debugger for ReactOS. ReactOS can be built using the MSVC or GCC. In this post we will be using a ReactOS built using MSVC.&lt;/p&gt;&#xA;&lt;p&gt;For official reference you can refer the ReactOS &lt;a href=&#34;https://reactos.org/wiki/Welcome_to_the_ReactOS_Development_Wiki&#34;&gt;wiki&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tools-needed&#34;&gt;Tools needed&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.google.com/archive/p/powersdr-iq/downloads&#34;&gt;com0com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.putty.org/&#34;&gt;Putty&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Virtual Box&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install com0com with the following components selected.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Components_to_install.png&#34; alt=&#34;Components_to_install&#34;&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Make sure the settings page has the following options checked.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;setup_com0com_reactos.png&#34; alt=&#34;setup com0com&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Introduction to DLL</title>
       <link>/posts/windll/windll/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>/posts/windll/windll/</guid>
-      <description>What is a DLL - A DLL stands for &amp;ldquo;Dynamic Link Library&amp;rdquo;.It acts as a shared library. The executables can use functions from the DLL libraries by importing/attaching the DLL. Dynamic Libraries are libraries that are loaded from another file (typically the DLL file). They are similar in structure to PE, the only difference they have is that they contain export tables. The list of functions that can be loaded is in the export table of the DLL.</description>
+      <description>&lt;h2 id=&#34;what-is-a-dll--&#34;&gt;What is a DLL -&lt;/h2&gt;&#xA;&lt;p&gt;A DLL stands for &amp;ldquo;Dynamic Link Library&amp;rdquo;.It acts as a shared library. The executables can use functions from the DLL libraries by importing/attaching the DLL. Dynamic Libraries are libraries that are loaded from another file (typically the DLL file). They are similar in structure to PE, the only difference they have is that they contain export tables. The list of functions that can be loaded is in the export table of the DLL. The functions which do not appear on the export table are private functions. These functions cannot be accessed by other executables.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,58 +4,45 @@
     <title>Tags on Freakston</title>
     <link>/tags/</link>
     <description>Recent content in Tags on Freakston</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>©Freakston</copyright>
     <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DOS</title>
       <link>/tags/dos/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>/tags/dos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Malware</title>
       <link>/tags/malware/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>/tags/malware/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Development</title>
       <link>/tags/development/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ReactOS</title>
       <link>/tags/reactos/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>/tags/reactos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Windows</title>
       <link>/tags/windows/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>/tags/windows/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
