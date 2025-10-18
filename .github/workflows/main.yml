@@ -1,30 +1,37 @@
 name: CI
-on: push
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.64.0"
+          hugo-version: "latest"
+          extended: true
 
       - name: Build
-        # remove --minify tag if you do not need it
-        # docs: https://gohugo.io/hugo-pipes/minification/
+        # remove --minify if you do not need it
         run: hugo
 
-      - name: Deploy
+      - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.PA_TOKEN }}
-          external_repository: Freakston/Freakston.github.io
+          # prefer the built-in token to avoid storing a personal token
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          #   keep_files: true
+          publish_branch: site
           user_name: Freakston
           user_email: kssuraj15@gmail.com
-          publish_branch: site
-        #   cname: example.com
