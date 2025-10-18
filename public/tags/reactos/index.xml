@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ReactOS on Freakston</title>
+    <link>//localhost:1313/tags/reactos/</link>
+    <description>Recent content in ReactOS on Freakston</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>©Freakston</copyright>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/reactos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Kernel Debugging of ReactOS using PUTTY/ROSDBG</title>
+      <link>//localhost:1313/posts/kd_react/kd_react/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/kd_react/kd_react/</guid>
+      <description>&lt;h2 id=&#34;setup-kernel-debugging-for-reactos--&#34;&gt;Setup Kernel Debugging for ReactOS -&lt;/h2&gt;&#xA;&lt;p&gt;In this post I will be guiding you guys on how to set up a kernel debugger for ReactOS. ReactOS can be built using the MSVC or GCC. In this post we will be using a ReactOS built using MSVC.&lt;/p&gt;&#xA;&lt;p&gt;For official reference you can refer the ReactOS &lt;a href=&#34;https://reactos.org/wiki/Welcome_to_the_ReactOS_Development_Wiki&#34;&gt;wiki&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tools-needed&#34;&gt;Tools needed&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.google.com/archive/p/powersdr-iq/downloads&#34;&gt;com0com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.putty.org/&#34;&gt;Putty&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Virtual Box&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install com0com with the following components selected.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Components_to_install.png&#34; alt=&#34;Components_to_install&#34;&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Make sure the settings page has the following options checked.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;setup_com0com_reactos.png&#34; alt=&#34;setup com0com&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
